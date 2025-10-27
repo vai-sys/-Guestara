@@ -103,7 +103,7 @@ Creates a new property with encrypted API credentials.
 ```json
 {
   "message": "Property added successfully",
-  "property": { ...propertyData }
+  "property": {  ...propertyData  }
 }
 ```
 
@@ -241,3 +241,4 @@ The Beds24 API requires:
 - `propKey` - Property-specific key
 
 These are encrypted before storage and decrypted only when making API calls.
+
